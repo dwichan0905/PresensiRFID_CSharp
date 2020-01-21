@@ -4,3 +4,15 @@ C:\Users\Secret Net\Documents\Visual Studio 2013\Projects\PresensiRFID_CSharp\Ar
 C:\Users\Secret Net\Documents\Visual Studio 2013\Projects\PresensiRFID_CSharp\PresensiRFID_CSharp\bin\Debug\ArduinoTest.exe.config
 C:\Users\Secret Net\Documents\Visual Studio 2013\Projects\PresensiRFID_CSharp\PresensiRFID_CSharp\obj\Debug\ArduinoTest.exe
 C:\Users\Secret Net\Documents\Visual Studio 2013\Projects\PresensiRFID_CSharp\PresensiRFID_CSharp\obj\Debug\ArduinoTest.pdb
+C:\Users\Secret Net\Documents\Gits\PresensiRFID_CSharp\PresensiRFID_CSharp\obj\Debug\PresensiRFID_CSharp.csprojResolveAssemblyReference.cache
+C:\Users\Secret Net\Documents\Gits\PresensiRFID_CSharp\PresensiRFID_CSharp\obj\Debug\PresensiRFID_CSharp.csproj.GenerateResource.Cache
+C:\Users\Secret Net\Documents\Gits\PresensiRFID_CSharp\PresensiRFID_CSharp\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Secret Net\Documents\Gits\PresensiRFID_CSharp\PresensiRFID_CSharp\bin\Debug\PresensiRFID.exe.config
+C:\Users\Secret Net\Documents\Gits\PresensiRFID_CSharp\PresensiRFID_CSharp\obj\Debug\PresensiRFID.frmAbout.resources
+C:\Users\Secret Net\Documents\Gits\PresensiRFID_CSharp\PresensiRFID_CSharp\obj\Debug\PresensiRFID.frmConfig.resources
+C:\Users\Secret Net\Documents\Gits\PresensiRFID_CSharp\PresensiRFID_CSharp\obj\Debug\PresensiRFID.frmMain.resources
+C:\Users\Secret Net\Documents\Gits\PresensiRFID_CSharp\PresensiRFID_CSharp\obj\Debug\PresensiRFID.Properties.Resources.resources
+C:\Users\Secret Net\Documents\Gits\PresensiRFID_CSharp\PresensiRFID_CSharp\bin\Debug\PresensiRFID.exe
+C:\Users\Secret Net\Documents\Gits\PresensiRFID_CSharp\PresensiRFID_CSharp\bin\Debug\PresensiRFID.pdb
+C:\Users\Secret Net\Documents\Gits\PresensiRFID_CSharp\PresensiRFID_CSharp\obj\Debug\PresensiRFID.exe
+C:\Users\Secret Net\Documents\Gits\PresensiRFID_CSharp\PresensiRFID_CSharp\obj\Debug\PresensiRFID.pdb

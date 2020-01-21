@@ -1,4 +1,4 @@
-﻿namespace ArduinoTest {
+﻿namespace PresensiRFID {
     partial class frmMain {
         /// <summary>
         /// Required designer variable.
@@ -33,6 +33,7 @@
             this.btnClose = new System.Windows.Forms.Button();
             this.tmrSearch = new System.Windows.Forms.Timer(this.components);
             this.tmrComm = new System.Windows.Forms.Timer(this.components);
+            this.button1 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btnConfig
@@ -43,6 +44,7 @@
             this.btnConfig.TabIndex = 1;
             this.btnConfig.Text = "Konfigurasi";
             this.btnConfig.UseVisualStyleBackColor = true;
+            this.btnConfig.Click += new System.EventHandler(this.btnConfig_Click);
             // 
             // btnConnect
             // 
@@ -78,6 +80,7 @@
             this.txtOut.Multiline = true;
             this.txtOut.Name = "txtOut";
             this.txtOut.ReadOnly = true;
+            this.txtOut.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
             this.txtOut.Size = new System.Drawing.Size(652, 320);
             this.txtOut.TabIndex = 5;
             // 
@@ -96,8 +99,7 @@
             this.cmbMode.FormattingEnabled = true;
             this.cmbMode.Items.AddRange(new object[] {
             "PRESENSI",
-            "TAMBAH KARTU",
-            "HAPUS KARTU"});
+            "TAMBAH KARTU"});
             this.cmbMode.Location = new System.Drawing.Point(134, 28);
             this.cmbMode.Name = "cmbMode";
             this.cmbMode.Size = new System.Drawing.Size(126, 21);
@@ -121,14 +123,26 @@
             // 
             // tmrComm
             // 
-            this.tmrComm.Interval = 1000;
+            this.tmrComm.Interval = 10;
             this.tmrComm.Tick += new System.EventHandler(this.tmrComm_Tick);
+            // 
+            // button1
+            // 
+            this.button1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.button1.Location = new System.Drawing.Point(12, 381);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(88, 28);
+            this.button1.TabIndex = 10;
+            this.button1.Text = "Tentang";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // frmMain
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(676, 421);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.btnClose);
             this.Controls.Add(this.cmbMode);
             this.Controls.Add(this.label2);
@@ -154,6 +168,7 @@
         private System.Windows.Forms.Button btnClose;
         private System.Windows.Forms.Timer tmrSearch;
         private System.Windows.Forms.Timer tmrComm;
+        private System.Windows.Forms.Button button1;
     }
 }
 
